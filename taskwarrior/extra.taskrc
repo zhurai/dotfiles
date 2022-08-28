@@ -1,0 +1,34 @@
+# Themes
+include dark-blue-256.theme
+
+# Default Report
+report.default.description=Default Taskwarrior View
+report.default.columns=id,project,description.count,scheduled.relative,scheduled.formatted,due.relative,due.formatted
+report.default.labels=ID,Project,Description,StartsIn,StartDate,DueIn,TaskDueDate
+report.default.sort=due+,project+
+report.default.filter=status:pending due.before:1week
+default.command=default
+
+# Priority
+uda.priority.type=string
+uda.priority.values=3,2,1,0,-1
+uda.priority.default=0
+
+# Priority-Urgency
+urgency.uda.priority.3=6.0
+urgency.uda.priority.2=1.8
+urgency.uda.priority.1=3.9
+urgency.uda.priority.-1=-5
+
+# Priority-Themes
+color.uda.priority.3=rgb035
+color.uda.priority.2=rgb025
+color.uda.priority.1=rgb015
+#color.uda.priority.0
+#color.uda.priority.-1
+
+# Other Configurations
+regex=on
+
+# News
+news.version=2.6.0
