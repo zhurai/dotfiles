@@ -1,0 +1,18 @@
+refresh-on-startup yes
+auto-reload yes
+reload-time 30
+
+color listnormal blue default
+color listfocus black yellow standout bold
+color listnormal_unread green default bold
+color info red black bold
+highlight feedlist "---.*---" yellow black bold
+highlight feedlist "^.*\\(0/0\\)" default default invis
+
+
+#feed-sort-order firsttag 
+datetime-format "%Y-%m-%d %H:%M:%S" 
+save-path "~/.newsboat/Articles"
+feedlist-format "%4i %n %11u %t" 
+articlelist-format "%4i %f %D %?T?;%-17T; ?%t" 
+

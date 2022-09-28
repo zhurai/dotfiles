@@ -1,0 +1,352 @@
+# starred articles
+"--- Header ---"
+"query:Starred:flags # \"s\""
+"query:Unread:unread = \"yes\""
+
+################################################################################
+
+# News
+"--- News ---"
+https://news.google.com/news/rss/search?q=apnews.com&hl=en "~AP News (Google Feed)" "News"
+https://news.google.com/news/rss/search?q=bloomberg.com&hl=en "~Bloomberg (Google Feed)" "News"
+http://feeds.bbci.co.uk/news/rss.xml "~BBC News" "News"
+https://news.google.com/news/rss/search?q=cnbc.com&hl=en "~CNBC (Google Feed)" "News"
+https://www.insider.com/rss "~Insider" "News"
+https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml "~New York Times" "News"
+https://feeds.npr.org/1002/rss.xml "~NPR" "News"
+https://www.politico.com/rss/politicopicks.xml "~Politico" "News"
+https://news.google.com/news/rss/search?q=reuters.com&hl=en "~Reuters (Google Feed)" "News"
+https://www.salon.com/feed/ "~Salon" "News"
+https://www.theatlantic.com/feed/all/ "~The Atlantic" "News"
+https://feeds.thedailybeast.com/rss/articles "~The Daily Beast" "News"
+https://www.theguardian.com/international/rss "~The Guardian (International)" "News"
+http://feeds.feedburner.com/vfdotcomrss "~Vanity Fair" "News"
+https://www.vox.com/rss/index.xml "~Vox News" "News"
+https://video-api.wsj.com/podcast/rss/wsj/minute-briefing "~Wall Street Journal (Minute Briefing)" "News"
+https://video-api.wsj.com/podcast/rss/wsj/whats-news "~Wall Street Journal (What's News)" "News"
+http://www.economist.com/feeds/print-sections/71/united-states.xml "~Economist (United States)" "News"
+
+# News -> Games
+"--- News / Games ---"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/179948458/ "~ 国产二次元手游观察 (Bilibili) - Statistics" "News/Games"
+# News -> Games -> Another Eden
+https://zhurai-rsshub.herokuapp.com/twitter/user/AnotherEdenRPG/showAuthorInTitle=1 "~Another Eden EN (Twitter)" "News/Games"
+https://zhurai-rsshub.herokuapp.com/twitter/user/rpg_AE/showAuthorInTitle=1 "~Another Eden JP (Twitter)" "News/Games"
+# News -> Games -> Arknights
+https://zhurai-rsshub.herokuapp.com/twitter/user/ArknightsEN/showAuthorInTitle=1 "~Arknights EN (Twitter)" "News/Games"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCR0J2NYGuC8epsa1O4DMmXQ "~Arknights EN (Youtube)" "News/Games"
+https://zhurai-rsshub.herokuapp.com/twitter/user/ArknightsStaff/showAuthorInTitle=1 "~Arknights JP (Twitter)" "News/Games"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvoQlzEzqa6vQA8hq9GNNug "~Arknights JP (Youtube)" "News/Games"
+https://zhurai-rsshub.herokuapp.com/twitter/user/ArknightsKorea/showAuthorInTitle=1 "~Arknights KR (Twitter)" "News/Games"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/161775300/ "~Arknights CN (Bilibili)" "News/Games"
+https://zhurai-rsshub.herokuapp.com/weibo/user/6279793937 "~Arknights CN (Weibo)" "News/Games"
+# News -> Games -> Azur Lane
+https://zhurai-rsshub.herokuapp.com/twitter/user/AzurLane_EN/showAuthorInTitle=1 "~Azur Lane EN (Twitter)" "News/Games"
+https://azurlane.yo-star.com/news/feed/ "~Azur Lane EN (Website)" "News/Games"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCPeJaqP6WgxUVDcpYkXZKMQ "~Azur Lane EN (Youtube)" "News/Games"
+https://zhurai-rsshub.herokuapp.com/twitter/user/azurlane_staff/showAuthorInTitle=1 "~Azur Lane JP (Twitter)" "News/Games"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCnUzafAtfncBzTml2muIUEQ "~Azur Lane JP (Youtube)" "News/Games"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/233114659/ "~Azur Lane CN (Bilibili)" "News/Games"
+https://zhurai-rsshub.herokuapp.com/weibo/user/5770760941 "~Azur Lane CN (Weibo)" "News/Games"
+# News -> Games -> Blue Archive
+https://zhurai-rsshub.herokuapp.com/twitter/user/EN_BlueArchive/showAuthorInTitle=1 "~Blue Archive EN (Twitter)" "News/Games"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsrnDYrkovQhCCE8kwKcvKQ "~Blue Archive EN (Youtube)" "News/Games"
+https://zhurai-rsshub.herokuapp.com/twitter/user/Blue_ArchiveJP/showAuthorInTitle=1 "~Blue Archive JP (Twitter)" "News/Games"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCmgf8DJrAXFnU7j3u0kklUQ "~Blue Archive JP (Youtube)" "News/Games"
+# News -> Games -> Counter Side
+https://www.prydwen.co/rss.xml "~CounterSide FanSite (Prydwen)" "News/Games"
+https://zhurai-rsshub.herokuapp.com/twitter/user/CounterSideGBL/showAuthorInTitle=1 "~CounterSide GBL (Twitter)" "News/Games"
+https://counterside.com/?feed=rss2 "~CounterSide GBL (Website)" "News/Games"
+https://zhurai-rsshub.herokuapp.com/twitter/user/COUNTERSIDE_NXJ/showAuthorInTitle=1 "~CounterSide JP (Twitter)" "News/Games"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCyvDpJUhL-5eYPTCkukDI7w "~CounterSide JP (Youtube)" "News/Games"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/1176738104/ "~CounterSide CN (Bilibili)" "News/Games"
+# News -> Games -> Fate/Grand Order
+https://zhurai-rsshub.herokuapp.com/twitter/user/FateGO_USA/showAuthorInTitle=1 "~Fate/Grand Order EN (Twitter)" "News/Games"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCDb0peSmF5rLX7BvuTcJfCw "~Fate/Grand Order EN (Youtube)" "News/Games"
+https://zhurai-rsshub.herokuapp.com/twitter/user/fgoproject/showAuthorInTitle=1 "~Fate/Grand Order JP (Twitter)" "News/Games"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXBgKqFxSjKADEuMLkc1Bpg "~Fate/Grand Order JP (Youtube)" "News/Games"
+# News -> Games -> Girls Frontline
+https://zhurai-rsshub.herokuapp.com/twitter/user/GFLGamePress/showAuthorInTitle=1 "~Girls Frontline FanSite (Gamepress)" "News/Games"
+https://zhurai-rsshub.herokuapp.com/twitter/user/GirlsFrontlineE/showAuthorInTitle=1 "~Girls Frontline EN (Twitter)" "News/Games"
+https://zhurai-rsshub.herokuapp.com/twitter/user/GirlsFrontline/showAuthorInTitle=1 "~Girls Frontline JP (Twitter)" "News/Games"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCKIdwu806-KocBJufLAeArA "~Girls Frontline JP (Youtube)" "News/Games"
+https://zhurai-rsshub.herokuapp.com/twitter/user/girlsfrontlinek/showAuthorInTitle=1 "~Girls Frontline KR (Twitter)" "News/Games"
+http://www.girlsfrontline.co.kr/feed "~Girls Frontline KR (Website)" "News/Games"
+https://gf.txwy.tw/feed "~Girls Frontline TW (Website)" "News/Games"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/32472953/ "~Girls Frontline CN (Bilibili)" "News/Games"
+https://zhurai-rsshub.herokuapp.com/weibo/user/5611537367 "~Girls Frontline CN (Weibo)" "News/Games"
+# News -> Games -> Hearthstone
+# News -> Games -> Magic The Gathering
+https://zhurai-rsshub.herokuapp.com/twitter/user/wizards_magic/showAuthorInTitle=1 "~Magic The Gathering (Twitter)" "News/Games"
+# News -> Games -> Mahjong Soul
+https://zhurai-rsshub.herokuapp.com/twitter/user/MahjongSoul_EN/showAuthorInTitle=1 "~Mahjong Soul (Twitter)" "News/Games"
+# News -> Games -> Minecraft
+https://www.minecraft.net/en-us/feeds/community-content/rss "~Minecraft (Website)" "News/Games"
+# News -> Games -> Project Neural Cloud
+# News -> Games -> Shadowverse
+
+# News -> Anime
+"--- News / Anime ---"
+https://www.animenewsnetwork.com/all/rss.xml?ann-edition=w "~Anime News Network" "News/Anime"
+http://feeds.feedburner.com/crunchyroll/animenews "~Crunchyroll" "News/Anime"
+
+# News -> Financial Markets
+"--- News / Financial ---"
+https://www.marketplace.org/feed/ "~Marketplace" "News/Finances"
+http://feeds.marketwatch.com/marketwatch/marketpulse/ "~Marketwatch (Market Pulse) "News/Finances"
+http://feeds.marketwatch.com/marketwatch/realtimeheadlines/ "~Marketwatch (Headlines)" "News/Finances"
+https://video-api.wsj.com/podcast/rss/wsj/your-money-matters "~Wall Street Journal (Your Money Matters)" "News/Finances"
+https://www.businessinsider.com/rss "~Business Insider" "News"
+http://www.economist.com/rss/finance_and_economics_rss.xml "~Economist (Finance/Economics)" "News"
+
+# News -> Local
+"--- News / Local ---"
+https://www.dailybreeze.com/feed/ "~Daily Breeze" "News/Local"
+https://ktla.com/feed/ "~KTLA" "News/Local"
+https://www.nbclosangeles.com/?rss=y "~NBC Los Angeles" "News/Local"
+https://abc7.com/feed/ "~ABC7" "News/Local"
+https://abc7news.com/feed/ "~ABC7 News" "News/Local"
+
+# News -> Politics
+"--- News / Politics ---"
+https://www.rightwingwatch.org/feed/ "~Right Wing Watch" "News/Politics"
+https://abovethelaw.com/feed/ "~Above the Law" "News/Politics"
+https://fivethirtyeight.com/features/feed/ "~Five Thirty Eight" "News/Politics"
+
+# News -> Religion
+"--- News / Religion ---"
+https://www.americamagazine.org/feeds/complete/rss.xml "~America Magazine" "News/Religion"
+https://www.newwaysministry.org/feed/ "~New Ways Ministry" "News/Religion"
+
+# News -> Technology
+"--- News / Technology ---"
+http://feeds.arstechnica.com/arstechnica/index "~ArsTechnica" "News/Tech"
+https://www.bleepingcomputer.com/feed/ "~Bleeping Computer" "News/Tech"
+https://feeds.feedburner.com/TheHackersNews "~The Hacker News" "News/Tech"
+https://www.zdnet.com/news/rss.xml "~ZDNet" "News/Tech"
+https://www.wired.com/feed/rss "~Wired" "News/Tech"
+https://www.theverge.com/rss/index.xml "~The Verge" "News/Tech"
+http://www.economist.com/rss/science_and_technology_rss.xml "~Economist (Science/Technology)" "News/Tech"
+https://video-api.wsj.com/podcast/rss/wsj/tech-news-briefing "~Wall Street Journal (Tech News)" "News/Tech"
+
+################################################################################
+
+# Podcasts
+"--- Podcasts ---"
+
+################################################################################
+
+
+# Tech
+"--- Tech ---"
+
+# Tech -> Software Development
+"--- Tech / Software Development ---"
+https://www.getrevue.co/profile/thisweekinreact?format=rss "~This Week in React" "News/Tech"
+
+# Tech -> Information Technology
+"--- Tech / I.T. ---"
+
+# Tech -> Security
+"--- Tech / Security ---"
+https://zhurai-rsshub.herokuapp.com/twitter/user/offsectraining/showAuthorInTitle=1 "~Offensive Security (Twitter)" "Tech/Security"
+https://www.youtube.com/feeds/videos.xml?channel_id=UChYZsplz61SeG0olX6cMoAA "~Offensive Security (Youtube)" "Tech/Security"
+
+################################################################################
+
+# Games
+"--- Games ---"
+ 
+# Games -> Another Eden
+"--- Games / Another Eden ---"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtyA0gFmjKC8sG78pwN-OOg "~Youtube: Wil Mak" "Games/Another Eden"
+
+# Games -> Arknights
+"--- Games / Arknights ---"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/398988936/ "~Bilibili: AstarR星星" "Games/Arknights"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCE5vq2Yb1p0y7S9y72XqmjQ "~Youtube: Projekt Fuji" "Games/Arknights"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/527073772/ "~Bilibili: SWEEP分遣队" "Games/Arknights"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/401769247/ "~Bilibili: 卓越行动" "Games/Arknights"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/60400874/ "~Bilibili: 巅峰计划" "Games/Arknights"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/21342479/ "~Bilibili: 巴别塔攻略组" "Games/Arknights"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/32206964/ "~Bilibili: 星海攻略组" "Games/Arknights"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/7848453/ "~Bilibili: 水草俱乐部" "Games/Arknights"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/326934590/ "~Bilibili: 法术大师-A2" "Games/Arknights"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/4878173/ "~Bilibili: 泥萌都是托" "Games/Arknights"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/11617956/ "~Bilibili: 浅色的迷宫" "Games/Arknights"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/308446/ "~Bilibili: 突破天际的金闪闪" "Games/Arknights"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/443398828/ "~Bilibili: 绯红权杖攻略组" "Games/Arknights"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/441449841/ "~Bilibili: 莱茵实验组" "Games/Arknights"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/697496384/ "~Bilibili: 黑域实验组" "Games/Arknights"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/404224360/ "~Bilibili: 黑蓑影卫攻略组" "Games/Arknights"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/89109764/ "~Bilibili: 龙门作战组" "Games/Arknights"
+
+# Games -> Arknights -> Creative
+"--- Games / Arknights / Creative ---"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/10258416/ "~Bilibili: ANTLERS-GO" "Games/Arknights/Creative"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/573959614/ "~Bilibili: 瓦莱塔学会Valletta" "Games/Arknights/Creative"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/9318640/ "~Bilibili: 盐鱼料理长" "Games/Arknights/Creative"
+
+# Games -> Azur Lane
+"--- Games / Azur Lane ---"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqmgPkks7HyTQGetnirxEqQ "~Youtube: Azur Lane Meta" "Games/AzurLane"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC83w7Rp-EO-4T1jlcdnXNzg "~Youtube: Kimocheese" "Games/AzurLane"
+
+# Games -> Counter;Side
+"--- Games / Counter Side ---"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSYs989yzOyszXGT1gbE8_Q "~Youtube: Bankvis" "Games/CounterSide"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqxBQyBQBlJ1JjQAei-OKaA "~Youtube: Friendly Neighborhood F2P" "Games/CounterSide"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbqh6Ugfa872kU1t3cVWGOQ "~Youtube: GuitarRock First" "Games/CounterSide"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCd_AEbUHNbV10Dwvjkc6gYg "~Youtube: HowDoesItWorks?" "Games/CounterSide"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC11QLnm_fwzzOGL4toRv-JA "~Youtube: inFAMOUSJakey" "Games/CounterSide"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCKQTVlM4iSokxZMflRm4ZHw "~Youtube: MadlyMoe" "Games/CounterSide"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC60a0TBPmq6RQFR32P0udeg "~Youtube: Synix09" "Games/CounterSide"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCG4iKww_hBFiWRVlOGFrbjg "~Youtube: Zy" "Games/CounterSide"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkdLeds-gIpp17VgshYYMxg "~Youtube: 님얼굴비매너" "Games/CounterSide"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCptlCVZcQYIxyNqgEltVfbw "~Youtube: 블릿 (Bullet)" "Games/CounterSide"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC862iM2ktTYz30iV9uvMT5Q "~Youtube: 카운터사이드" "Games/CounterSide"
+
+# Games -> Girls Frontline
+"--- Games / Girls Frontline ---"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfZl5xTboGi97nAl4OFx_yg "~Youtube: Ceia" "Games/GirlsFrontline"
+https://www.gflcorner.com/feed/ "~Website: GFL Corner" "Games/GirlsFrontline"
+
+# Games -> Mahjong
+#  Mahjong
+#  Mahjong Soul
+#  Tenhou
+"--- Games / Mahjong ---"
+https://osamuko.com/rss/ "~Website: Osamuko" "Games/Majong"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdS3bnxp3wejtrkNIEUmYIQ "~Youtube: USPML/United States Professional Mahjong League" "Games/Majong"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZgbJCH9iq_lee_21KyZ8fQ "~Youtube: うに丸麻雀ちゃんねる" "Games/Majong"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRlhRL1Z-nYIkIkE2jlR5nQ "~Youtube: 見るだけで勝てる!ゆうせー" "Games/Majong"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQDA1x6VCsJHlrDEPKE0RPQ "~Youtube: Mahjong Watch" "Games/Majong"
+https://mj-news.net/feed "Website: Mahjong Watch" "Games/Majong"
+
+# Games -> Magic The Gathering 
+#  Magic The Gathering
+#  Magic The Gathering Online
+#  Magic The Gathering Arena
+"--- Games / Magic The Gathering ---"
+https://www.quietspeculation.com/feed/ "Website: Quiet Speculation" "Games/MagicTheGathering"
+
+# Games -> Minecraft
+"--- Games / Minecraft ---"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZ9x-z3iOnIbJxVpm1rsu2A "~Youtube: iskall85" "Games/Minecraft"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFKDEp9si4RmHFWJW1vYsMA "~Youtube: EthosLab" "Games/Minecraft"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUBsjvdHcwZd3ztdY1Zadcw "~Youtube: GeminiTay" "Games/Minecraft"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC24lkOxZYna9nlXYBcJ9B8Q "~Youtube: Stressmonster101" "Games/Minecraft"
+https://www.youtube.com/feeds/videos.xml?channel_id=UChi5MyXJLQuPni3dM19Ar3g "~Youtube: Hypnotizd" "Games/Minecraft"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCshoKvlZGZ20rVgazZp5vnQ "~Youtube: CaptainSparklez" "Games/Minecraft"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCuQYHhF6on6EXXO-_i_ClHQ "~Youtube: FalseSymmetry" "Games/Minecraft"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCU9pX8hKcrx06XfOB-VQLdw "~Youtube: Xisuma" "Games/Minecraft"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCL5W9kuKIQtXEVAxSadB2BQ "~Youtube: Xisuma (2nd)" "Games/Minecraft"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1GJ5aeqpEWklMBQ3oXrPQQ "~Youtube: PearlescentMoon" "Games/Minecraft"
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UClmdJ2bwqHjZONP9rIK7geA "~Youtube: ChosenArchitect" "Games/Minecraft/Modded"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1m_6jRm-vJV_82lKMUEYoA "~Youtube: ChosenArchitect (Live)" "Games/Minecraft/Modded"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_ViSsVg_3JUDyLS3E2Un5g "~Youtube: direwolf20" "Games/Minecraft/Modded"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCnwWeoJ25wuLYNlwLwsVCeg "~Youtube: TheKiwiGamer" "Games/Minecraft/Modded"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC02i7qHYD-fLKNMeIL2kcVA "~Youtube: DoorskyGaming" "Games/Minecraft/Modded"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCNTMeHubDI8B4ReXKFzf6uA "~Youtube: DEWSTREAM" "Games/Minecraft/Modded"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCapAxx_bMPdOEl2SQxg2HAw "~Youtube: Kharax82" "Games/Minecraft/Modded"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCE7HSqVe0-fTumbJJn3S5hg "~Youtube: Lashmak" "Games/Minecraft/Modded"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCpeVmd1LUaVtak-l-DAoL0A "~Youtube: Nik & Isaac" "Games/Minecraft/Modded"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCctZcizMGK7uIVvNUtzvm8w "~Youtube: SomeNutzGuy" "Games/Minecraft/Modded"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTWT9LtF8tXmd3qXNEoqYvA "~Youtube: SystemCollapse" "Games/Minecraft/Modded"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCpWEeICUoxrhkjTID4j7-tw "~Youtube: Threefold" "Games/Minecraft/Modded"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvzXQOkAZEOLqrdoUTyueXw "~Youtube: To Asgaard" "Games/Minecraft/Modded"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHSI8erNrN6hs3sUK6oONLA "~Youtube: ilmango" "Games/Minecraft/Vanilla"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJpwHgi3Y6fK6APvoEWkHZQ "~Youtube: Chapman" "Games/Minecraft/Vanilla"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsuKgiVb2KJ2sZdrrwoAqsA "~Youtube: wattles" "Games/Minecraft/Vanilla"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4O9HKe9Jt5yAhKuNv3LXpQ "~Youtube: docm77" "Games/Minecraft/Vanilla"
+https://www.youtube.com/feeds/videos.xml?channel_id=UChFur_NwVSbUozOcF_F2kMg "~Youtube: Mumbo Jumbo" "Games/Minecraft/Vanilla"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrEtZMErQXaSYy_JDGoU5Qw "~Youtube: iJevin" "Games/Minecraft/Vanilla"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCjI5qxhtyv3srhWr60HemRw "~Youtube: ZombieCleo" "Games/Minecraft/Vanilla"
+
+################################################################################
+
+# VTubers
+"--- VTubers ---"
+
+# VTubers -> Hololive
+"--- VTubers / Hololive ---"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqm3BQLlJfvkTsX_hvm0UmA "~Youtube: 角巻わため (Watame)" "VTuber/Hololive"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3n5uGu18FoCy23ggWWp8tA "~Youtube: Nanashi Mumei" "VTuber/Hololive"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFKOVgVbGmX65RxO3EtH3iw "~Youtube: 雪花ラミィ (Lamy)" "VTuber/Hololive"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7fk0CB07ly8oSl0aqKkqFg "~Youtube: 百鬼あやめ (Ayame)" "VTuber/Hololive"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMwGHR0BTZuLsmjY_NT5Pwg "~Youtube: Ninomae Ina'nis" "VTuber/Hololive"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdn5BQ06XqgXoAxIhbqw5Rg "~Youtube: 白上フブキ (Fubuki)" "VTuber/Hololive"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6eWCld0KwmyHFbAqK3V-Rw "~Youtube: 博衣こより (Koyori)" "VTuber/Hololive"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1opHUrw8rvnsadT-iGp7Cg "~Youtube: 湊あくあ (Aqua)" "VTuber/Hololive"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCIBY1ollUsauvVi4hW4cumw "~Youtube: 沙花叉クロヱ (Chloe)" "VTuber/Hololive"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCO_aKKYxn4tvrqPjcTzZ6EQ "~Youtube: Ceres Fauna" "VTuber/Hololive"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZlDXzGoo7d44bwdNObFacg "~Youtube: 天音かなた (Kanata)" "VTuber/Hololive"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXTpFs_3PqI41qX2d9tL2Rw "~Youtube: 紫咲シオン (Shion)" "VTuber/Hololive"
+
+# VTubers -> Nijisanji
+"--- VTubers / Nijisanji ---"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCgA2jKRkqpY_8eysPUs8sjw "~Youtube: Petra Gurin" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCu-J8uIXuLZh16gG-cT1naw "~Youtube: Finana Ryugu" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCR6qhsLpn62WVxCBK1dkLow "~Youtube: Enna Alouette" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC47rNmkDcNgbOcM-2BwzJTQ "~Youtube: Millie Parfait" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCV1xUwfM2v2oBtT3JNvic3w "~Youtube: Selen Tatsuki" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBURM8S4LH7cRZ0Clea9RDA "~Youtube: Reimu Endou" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCP4nMSTdwU1KqYWu3UH5DHQ "~Youtube: Pomu Rainpuff" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4WvIIAo89_AzGUh1AZ6Dkg "~Youtube: Rosemi Lovelock" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCIeSUTOTkF9Hs7q3SGcO-Ow "~Youtube: Elira Pendora" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCpJtk0myFr5WnyfsmnInP-w "~Youtube: Hana Macchia" "VTuber/Nijisanji
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrR7JxkbeLY82e8gsj_I0pQ "~Youtube: Amicia Michella" "VTuber/Nijisanji"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/529249/ "Bilibili: 诺莺Nox (VirtuaReal)" "VTuber/Nijisanji"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/741520/ "Bilibili: 茶冷 Karon (VirtuaReal)" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkIimWZ9gBJRamKF0rmPU8w "~Youtube: 天宮 こころ (Amamya)" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCo7TRj3cS-f_1D9ZDmuTsjw "~Youtube: 町田ちま (Chima)" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCuvk5PilcvDECU7dDZhQiEw "~Youtube: 白雪 巴 (Shirayuki Tomoe)" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9V3Y3_uzU5e-usObb6IE1w "~Youtube: 星川サラ (Sara Hoshikawa)" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCllKI7VjyANuS1RXatizfLQ "~Youtube: 山神 カルタ (Karuta Yamagami)" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1zFJrfEKvCixhsjNSb1toQ "~Youtube: シスター・クレア (SisterClaire)" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCpNH2Zk2gw3JBjWAKSyZcQQ "~Youtube: エリー・コニファー (Eli Conifer)" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCV5ZZlLjk5MKGg3L0n0vbzw "~Youtube: 鷹宮リオン (Rion Takamiya)" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdpUojq0KWZCN9bxXnZwz5w "~Youtube: アルス・アルマル (Ars Almal)" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWCc8tO-uUl_7SJXIKJACMw "~Youtube: 神楽めあ (Kagura Mea)" "VTuber/Nijisanji"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_4tXjqecqox5Uc05ncxpxg "~Youtube: 椎名唯華 (Shiina Yuika)" "VTuber/Nijisanji"
+
+# VTubers -> Indie
+"--- VTubers / Indie ---"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC5jsH1gbTcXWelRl7JeVA5w "~Youtube: 猫々 (MaoMao)" "VTuber/Indie"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdYR5Oyz8Q4g0ZmB4PkTD7g "~Youtube: 天使うと (Uto)" "VTuber/Indie"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/1950658/ "~Bilibili: 早稻叽" "VTuber/Indie"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzKkwB84Y0ql0EvyOWRSkEw "~Youtube: Nabi" "VTuber/Indie"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC01gb86Qdlkh23Nqk3A1OLQ "~Youtube: ゆるりめぐ (Yururi Megu)" "VTuber/Indie"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCyIcOCH-VWaRKH9IkR8hz7Q "~Youtube: 花丸はれる (Hareru)" "VTuber/Indie"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbfv8uuUXt3RSJGEwxny5Rw "~Youtube: ななかぐら (Nana Kagura)" "VTuber/Indie"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCajhBT4nMrg3DLS-bLL2RCg "~Youtube: 天野ピカミィ (Pikamee)" "VTuber/Indie"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVqeEUJOJgH2uam5q_78W4g "~Youtube: theCecile" "VTuber/Indie"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCeb76eafe-6kE0D4u7lOWbg "~Youtube: うみ (Umi)" "VTuber/Indie"
+
+################################################################################
+
+# Comedy
+"--- Comedy ---"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqFzWxSCi39LnW1JKFR3efg "~Youtube: Saturday Night Live" "Comedy"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3XTzVzaHQEd30rQbuvCtTQ "~Youtube: LastWeekTonight" "Comedy/Politics"
+http://www.youtube.com/feeds/videos.xml?channel_id=UCVTyTA7-g9nopHeHbeuvpRA "~Youtube: Late Night with Seth Meyers" "Comedy/Politics"
+http://www.youtube.com/feeds/videos.xml?channel_id=UCMtFAi84ehTSYSE9XoHefig "~Youtube: The Late Show with Stephen Colbert" "Comedy/Politics"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwWhs_6x42TyRM4Wstoq8HA "~Youtube: The Daily Show with Trevor Noah" "Comedy/Politics"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQANb2YPwAtK-IQJrLaaUFw "~Youtube: Brian Tyler Cohen" "Comedy/Politics"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC18vz5hUUqxbGvym9ghtX_w "~Youtube: Full Frontal with Samantha Bee" "Comedy/Politics"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/375241551/ "~Bilibili: 苦力怕到此一游" "Comedy/Games"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/457761794/ "~Bilibili: 帅哥伊斯买裤衩" "Comedy/Games"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/15232589/ "~Bilibili: 白木哒哒哒" "Comedy/Games"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/290982/ "~Bilibili: zcy902" "Comedy/Games"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/8081522/ "~Bilibili: 3-氯丙酸" "Comedy/Games"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/228374849/ "Bilibili: Dark-弑君者" "Comedy/Games"
+
+################################################################################
+
+# Personal Feeds
+"--- Personal ---"
+https://zhurai-rsshub.herokuapp.com/twitter/user/zhurai/showAuthorInTitle=1 "~zhurai (Twitter)" "Personal"
+https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/231525979/ "~zhurai (Bilibili)" "Personal"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwYh9laHvJXdXRmjOwIQ--Q "~zhurai (Youtube)" "Personal"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHR9huUN4vBKl4NoIujGU-Q "~zhurai (Youtube-Live)" "Personal"
