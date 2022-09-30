@@ -60,13 +60,15 @@ https://www.americamagazine.org/feeds/complete/rss.xml "~America Magazine" "News
 https://www.newwaysministry.org/feed/ "~New Ways Ministry" "News/Religion"
 
 # News -> Technology
-"--- News / Technology ---"
+"--- News / Technology ---" 
+	# mostly for any feeds that are somewhat more news focused. may have useful products/how to's but not the main point of the feed
 http://feeds.arstechnica.com/arstechnica/index "~ArsTechnica" "News/Tech"
 https://www.bleepingcomputer.com/feed/ "~Bleeping Computer" "News/Tech"
 https://feeds.feedburner.com/TheHackersNews "~The Hacker News" "News/Tech"
 https://www.zdnet.com/news/rss.xml "~ZDNet" "News/Tech"
 https://www.wired.com/feed/rss "~Wired" "News/Tech"
 https://www.theverge.com/rss/index.xml "~The Verge" "News/Tech"
+https://gizmodo.com/rss "~Gizmodo" "News/Tech"
 http://www.economist.com/rss/science_and_technology_rss.xml "~Economist (Science/Technology)" "News/Tech"
 https://video-api.wsj.com/podcast/rss/wsj/tech-news-briefing "~Wall Street Journal (Tech News)" "News/Tech"
 
@@ -80,6 +82,9 @@ https://video-api.wsj.com/podcast/rss/wsj/tech-news-briefing "~Wall Street Journ
 
 # Tech
 "--- Tech ---"
+https://lifehacker.com/rss "~Lifehacker" "Tech"
+https://www.howtogeek.com/feed/ "~How To Geek" "Tech"
+https://www.makeuseof.com/feed/ "~Make Use Of" "Tech"
 
 # Tech -> Software
 "--- Tech / Software ---"
@@ -172,12 +177,11 @@ https://gf.txwy.tw/feed "~Girls Frontline TW (Website)" "Games/News/Girls Frontl
 https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/32472953/ "~Girls Frontline CN (Bilibili)" "Games/News/Girls Frontline" "_Type/Bilibili"
 https://zhurai-rsshub.herokuapp.com/weibo/user/5611537367 "~Girls Frontline CN (Weibo)" "Games/News/Girls Frontline" "_Type/Weibo"
 # Games -> News -> Hearthstone
-	# TODO: Hearthstone News
+https://zhurai-rsshub.herokuapp.com/twitter/user/PlayHearthstone/showAuthorInTitle=1 "~Hearthstone (Twitter)" "Games/News/Hearthstone" "_Type/Twitter"
+	# Hearthstone website: https://hearthstone.blizzard.com/en-us/news
 # Games -> News -> Magic The Gathering
 https://zhurai-rsshub.herokuapp.com/twitter/user/wizards_magic/showAuthorInTitle=1 "~Magic The Gathering (Twitter)" "Games/News/MTG" "_Type/Twitter"
-	# TODO: MTG News
-	# TODO: MTGA News
-	# TODO: MTGO News
+http://magic.wizards.com/en/rss/rss.xml?tags=Daily%20MTG&lang=en "~Magic the Gathering (Website) - Daily MTG" "Games/MagicTheGathering"
 # Games -> News -> Mahjong Soul
 https://zhurai-rsshub.herokuapp.com/twitter/user/MahjongSoul_EN/showAuthorInTitle=1 "~Mahjong Soul (Twitter)" "Games/News/Mahjong" "_Type/Twitter"
 	# TODO: Mahjong News
@@ -187,8 +191,9 @@ https://www.minecraft.net/en-us/feeds/community-content/rss "~Minecraft (Website
 # Games -> News -> Project Neural Cloud
 https://zhurai-rsshub.herokuapp.com/twitter/user/NeuralCloudEN/showAuthorInTitle=1 "~Project Neural Cloud EN (Twitter)" "Games/News/ProjectNeuralCloud" "_Type/Twitter"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCWJe7Cl7hdqJJA511Jnhaeg "~Project Neural Cloud EN (Youtube)" "Games/News/ProjectNeuralCloud" "_Type/Youtube"
+	# TODO: Neural Cloud FB: https://www.facebook.com/NeuralCloud
 https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/526489877/ "~Project Neural Cloud CN (Bilibili)" "Games/News/ProjectNeuralCloud" "_Type/Bilibili"
-https://zhurai-rsshub.herokuapp.com/weibo/user/4507423308226172 "~Project Neural Cloud CN (Weibo)" "Games/News/ProjectNeuralCloud" "_Type/Weibo"
+https://zhurai-rsshub.herokuapp.com/weibo/user/7308178516 "~Project Neural Cloud CN (Weibo)" "Games/News/ProjectNeuralCloud" "_Type/Weibo"
 # Games -> News -> Shadowverse
 	# TODO: Website: https://shadowverse.com/news/
 https://zhurai-rsshub.herokuapp.com/twitter/user/shadowversegame/showAuthorInTitle=1 "~Shadowverse EN (Twitter)" "Games/News/Shadowverse" "_Type/Twitter"
@@ -200,6 +205,11 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCvCnMeBahhM8wfADjUhNBvQ "~S
 "--- Games / Another Eden ---"
 https://www.reddit.com/r/AnotherEdenGlobal/.rss "~Another Eden Reddit RSS" "Games/Another Eden" "_Type/Reddit"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCtyA0gFmjKC8sG78pwN-OOg "~Youtube: Wil Mak" "Games/Another Eden" "_Type/Youtube"
+
+# Games -> Apex Legends
+"--- Games / Apex Legends ---"
+https://www.reddit.com/r/apexlegends/.rss "~Apex Legends Reddit RSS" "Games/Apex Legends" "_Type/Reddit"
+https://www.reddit.com/r/CompetitiveApex/.rss "~Competitive Apex Legends Reddit RSS" "Games/Apex Legends" "_Type/Reddit"
 
 # Games -> Arknights
 "--- Games / Arknights ---"
@@ -227,11 +237,16 @@ https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/89109764/ "~Bilibili: 
 https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/10258416/ "~Bilibili: ANTLERS-GO" "Games/Arknights/Creative" "_Type/Bilibili"
 https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/573959614/ "~Bilibili: 瓦莱塔学会Valletta" "Games/Arknights/Creative" "_Type/Bilibili"
 https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/9318640/ "~Bilibili: 盐鱼料理长" "Games/Arknights/Creative" "_Type/Bilibili" 
+
 # Games -> Azur Lane
 "--- Games / Azur Lane ---"
 https://www.reddit.com/r/AzurLane/.rss "~Azur Lane Reddit RSS" "Games/Azur Lane" "_Type/Reddit"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCqmgPkks7HyTQGetnirxEqQ "~Youtube: Azur Lane Meta" "Games/Azur Lane" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC83w7Rp-EO-4T1jlcdnXNzg "~Youtube: Kimocheese" "Games/Azur Lane" "_Type/Youtube"
+
+# Games -> Blue Archive
+"--- Games / Blue Archive ---"
+https://www.reddit.com/r/BlueArchive/.rss "~Blue Archive Reddit RSS" "Games/Blue Archive" "_Type/Reddit"
 
 # Games -> Counter;Side
 "--- Games / Counter Side ---"
@@ -248,7 +263,14 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC60a0TBPmq6RQFR32P0udeg "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UCG4iKww_hBFiWRVlOGFrbjg "~Youtube: Zy" "Games/Counter Side" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCkdLeds-gIpp17VgshYYMxg "~Youtube: 님얼굴비매너" "Games/Counter Side" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCptlCVZcQYIxyNqgEltVfbw "~Youtube: 블릿 (Bullet)" "Games/Counter Side" "_Type/Youtube"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC862iM2ktTYz30iV9uvMT5Q "~Youtube: 카운터사이드" "Games/Counter Side" "_Type/Youtube"
+
+# Games -> Epic Seven
+"--- Games / Epic Seven ---"
+https://www.reddit.com/r/EpicSeven/.rss "~Epic Seven Reddit RSS" "Games/Epic Seven" "_Type/Reddit"
+
+# Games -> Fate/Grand Order
+"--- Games / Epic Seven ---"
+https://www.reddit.com/r/grandorder/.rss "~FGO Reddit RSS" "Games/FGO" "_Type/Reddit"
 
 # Games -> Girls Frontline
 "--- Games / Girls Frontline ---"
@@ -256,6 +278,29 @@ https://www.reddit.com/r/girlsfrontline/.rss "~Girls Frontline Reddit RSS" "Game
 https://zhurai-rsshub.herokuapp.com/twitter/user/GFLGamePress/showAuthorInTitle=1 "~Girls Frontline FanSite (Gamepress)" "Games/News/Girls Frontline"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCfZl5xTboGi97nAl4OFx_yg "~Youtube: Ceia" "Games/GirlsFrontline" "_Type/Youtube"
 https://www.gflcorner.com/feed/ "~Website: GFL Corner" "Games/GirlsFrontline"
+
+# Games -> Hearthstone
+"--- Games / Hearthstone ---"
+https://www.reddit.com/r/Hearthstone/.rss "~Hearthstone Reddit RSS" "Games/Hearthstone" "_Type/Reddit"
+https://www.reddit.com/r/CompetitiveHS/.rss "~Competitive Hearthstone Reddit RSS" "Games/Hearthstone" "_Type/Reddit"
+	# hearthstone - high profile blog/strategy websites
+
+# Games -> Magic The Gathering 
+#  Magic The Gathering
+#  Magic The Gathering Online
+#  Magic The Gathering Arena
+"--- Games / Magic The Gathering ---"
+https://www.reddit.com/r/magicTCG/.rss "~Magic The Gathering Reddit RSS" "Games/MagicTheGathering" "_Type/Reddit"
+https://www.reddit.com/r/spikes/.rss "~Competitive Magic The Gathering Reddit RSS" "Games/MagicTheGathering" "_Type/Reddit"
+https://www.reddit.com/r/MTGO/.rss "~Magic The Gathering Online Reddit RSS" "Games/MagicTheGathering" "_Type/Reddit"
+https://www.reddit.com/r/MagicArena/.rss "~Magic The Gathering Arena Reddit RSS" "Games/MagicTheGathering" "_Type/Reddit"
+https://www.reddit.com/r/ModernMagic/.rss "~Magic The Gathering (Modern) Reddit RSS" "Games/MagicTheGathering" "_Type/Reddit"
+https://www.reddit.com/r/PioneerMTG/.rss "~Magic The Gathering (Pioneer) Reddit RSS" "Games/MagicTheGathering" "_Type/Reddit"
+https://www.reddit.com/r/MTGLegacy/.rss "~Magic The Gathering (Legacy) Reddit RSS" "Games/MagicTheGathering" "_Type/Reddit"
+https://www.reddit.com/r/Pauper/.rss "~Magic The Gathering (Pauper) Reddit RSS" "Games/MagicTheGathering" "_Type/Reddit"
+https://www.reddit.com/r/MTGVintage/.rss "~Magic The Gathering (Vintage) Reddit RSS" "Games/MagicTheGathering" "_Type/Reddit"
+https://www.reddit.com/r/mtglimited/.rss "~Magic The Gathering (Limited) Reddit RSS" "Games/MagicTheGathering" "_Type/Reddit"
+https://www.quietspeculation.com/feed/ "Website: Quiet Speculation" "Games/MagicTheGathering"
 
 # Games -> Mahjong
 #  Mahjong
@@ -271,18 +316,12 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCRlhRL1Z-nYIkIkE2jlR5nQ "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UCQDA1x6VCsJHlrDEPKE0RPQ "~Youtube: Mahjong Watch" "Games/Majong" "_Type/Youtube"
 https://mj-news.net/feed "Website: Mahjong Watch" "Games/Majong"
 
-# Games -> Magic The Gathering 
-#  Magic The Gathering
-#  Magic The Gathering Online
-#  Magic The Gathering Arena
-"--- Games / Magic The Gathering ---"
-	# TODO: Add MTG Reddit
-https://www.quietspeculation.com/feed/ "Website: Quiet Speculation" "Games/MagicTheGathering"
-
 # Games -> Minecraft
 "--- Games / Minecraft ---"
-	# TODO: Add Minecraft Reddit
-	# TODO: Add Modded Minecraft Reddit
+https://www.reddit.com/r/Minecraft/.rss "~Minecraft Reddit RSS" "Games/Minecraft" "_Type/Reddit"
+https://www.reddit.com/r/ModdedMinecraft/.rss "~(Modded) Minecraft Reddit RSS" "Games/Minecraft" "_Type/Reddit"
+https://www.reddit.com/r/feedthebeast/.rss "~FTB (Modded) Minecraft Reddit RSS" "Games/Minecraft" "_Type/Reddit"
+https://www.reddit.com/r/VaultHuntersMinecraft/.rss "~VH (Modded) Minecraft Reddit RSS" "Games/Minecraft" "_Type/Reddit"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCZ9x-z3iOnIbJxVpm1rsu2A "~Youtube: iskall85" "Games/Minecraft" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCFKDEp9si4RmHFWJW1vYsMA "~Youtube: EthosLab" "Games/Minecraft" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCUBsjvdHcwZd3ztdY1Zadcw "~Youtube: GeminiTay" "Games/Minecraft" "_Type/Youtube"
@@ -314,6 +353,15 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UChFur_NwVSbUozOcF_F2kMg "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UCrEtZMErQXaSYy_JDGoU5Qw "~Youtube: iJevin" "Games/Minecraft/Vanilla" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCjI5qxhtyv3srhWr60HemRw "~Youtube: ZombieCleo" "Games/Minecraft/Vanilla" "_Type/Youtube"
 
+# Games -> Project Neural Cloud
+"--- Games / Project Neural Cloud ---"
+https://www.reddit.com/r/GFLNeuralCloud/.rss "~Project Neural Cloud Reddit RSS" "Games/ProjectNeuralCloud" "_Type/Reddit"
+
+# Games -> Shadowverse
+"--- Games / Shadowverse ---"
+https://www.reddit.com/r/Shadowverse/.rss "~Shadowverse Reddit RSS" "Games/Shadowverse" "_Type/Reddit"
+	# shadowverse - high profile blog/strategy websites
+
 ################################################################################
 
 # VTubers
@@ -330,18 +378,27 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCdn5BQ06XqgXoAxIhbqw5Rg "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UC6eWCld0KwmyHFbAqK3V-Rw "~Youtube: 博衣こより (Koyori)" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC1opHUrw8rvnsadT-iGp7Cg "~Youtube: 湊あくあ (Aqua)" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCIBY1ollUsauvVi4hW4cumw "~Youtube: 沙花叉クロヱ (Chloe)" "VTuber/Hololive" "_Type/Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UChAnqc_AY5_I3Px5dig3X1Q "~Youtube: 戌神ころね (Korone)" "VTuber/Hololive" "_Type/Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFTLzh12_nrtzqBPsTCqenA "~Youtube: アキ・ローゼンタール (Aki)" "VTuber/Hololive" "_Type/Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC5CwaMl1eIgY8h02uZw7u8A "~Youtube: 星街すいせい (Suisei)" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCO_aKKYxn4tvrqPjcTzZ6EQ "~Youtube: Ceres Fauna" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC8rcEBzJSleTkf_-agPM20g "~Youtube: IRyS" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCOyYb1c43VlX9rc_lT6NKQw "~Youtube: Ayunda Risu" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCZlDXzGoo7d44bwdNObFacg "~Youtube: 天音かなた (Kanata)" "VTuber/Hololive" "_Type/Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1suqwovbL1kzsoaZgFZLKg "~Youtube: 癒月ちょこ (Choco)" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCXTpFs_3PqI41qX2d9tL2Rw "~Youtube: 紫咲シオン (Shion)" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCL_qhgtOy0dy1Agp8vkySQg "~Youtube: Mori Calliope" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCHsx4Hqa-1ORjQTh9TYDhww "~Youtube: Takanashi Kiara" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCgmPnx-EEeOrZSg5Tiw7ZRQ "~Youtube: Hakos Baelz" "VTuber/Hololive" "_Type/Youtube"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCK9V2B22uJYu3N7eR_BT9QA "~Youtube: 尾丸ポルカ (Polka)" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCAoy6rzhSf4ydcYjJw3WoVg "~Youtube: Airani Iofifteen" "VTuber/Hololive" "_Type/Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCK9V2B22uJYu3N7eR_BT9QA "~Youtube: 尾丸ポルカ (Polka)" "VTuber/Hololive" "_Type/Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-hM6YJuNYVAmUWxeIr9FeA "~Youtube: さくらみこ (Miko)" "VTuber/Hololive" "_Type/Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvInZx9h3jC2JzsIzoOebWg "~Youtube: 不知火フレア (Flare)" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCyl1z3jo3XHR1riLFKG5UAg "~Youtube: Watson Amelia" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCmbs8T6MWqUHP1tIQvSgKrg "~Youtube: Ouro Kronii" "VTuber/Hololive" "_Type/Youtube"
+
+
+
 
 # VTubers -> Nijisanji
 "--- VTubers / Nijisanji ---"
@@ -360,8 +417,9 @@ https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/529249/ "Bilibili: 诺
 https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/741520/ "Bilibili: 茶冷 Karon (VirtuaReal)" "VTuber/Nijisanji"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCkIimWZ9gBJRamKF0rmPU8w "~Youtube: 天宮 こころ (Amamya)" "VTuber/Nijisanji" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCo7TRj3cS-f_1D9ZDmuTsjw "~Youtube: 町田ちま (Chima)" "VTuber/Nijisanji" "_Type/Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCyRkQSuhJILuGOuXk10voPg "~Youtube: Layla Alstroemeria" "VTuber/Nijisanji" "_Type/Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCCHH0nWYXFZmtDS_4tvMxHQ "~Youtube: ヤン・ナリ (Yang Nari)" "VTuber/Nijisanji" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCLjx3lqIkYkPCBJop8czJ2A "~Youtube: Ban Hada" "VTuber/Nijisanji" "_Type/Youtube"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCLjx3lqIkYkPCBJop8czJ2A "~Youtube: ヤン・ナリ (Yang Nari)" "VTuber/Nijisanji" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCuvk5PilcvDECU7dDZhQiEw "~Youtube: 白雪 巴 (Shirayuki Tomoe)" "VTuber/Nijisanji" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC9V3Y3_uzU5e-usObb6IE1w "~Youtube: 星川サラ (Sara Hoshikawa)" "VTuber/Nijisanji" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC53UDnhAAYwvNO7j_2Ju1cQ "~Youtube: ドーラ (Dola)" "VTuber/Nijisanji" "_Type/Youtube"
@@ -373,6 +431,9 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCdpUojq0KWZCN9bxXnZwz5w "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UCWCc8tO-uUl_7SJXIKJACMw "~Youtube: 神楽めあ (Kagura Mea)" "VTuber/Nijisanji" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC_4tXjqecqox5Uc05ncxpxg "~Youtube: 椎名唯華 (Shiina Yuika)" "VTuber/Nijisanji" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCBiqkFJljoxAj10SoP2w2Cg "~Youtube: 文野環 (Noraneko)" "VTuber/Nijisanji" "_Type/Youtube"
+
+
+
 
 # VTubers -> Indie
 "--- VTubers / Indie ---"
