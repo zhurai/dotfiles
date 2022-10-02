@@ -8,7 +8,7 @@ color listnormal_unread green default bold
 color info red black bold
 highlight feedlist "---.*---" yellow black bold
 highlight feedlist "^.*\\(0/0\\)" default default invis
-
+browser /mnt/c/Program\ Files/Mozilla\ Firefox/firefox.exe
 
 #feed-sort-order firsttag 
 datetime-format "%Y-%m-%d %H:%M:%S" 

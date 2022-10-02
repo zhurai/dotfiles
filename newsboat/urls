@@ -88,6 +88,8 @@ https://www.makeuseof.com/feed/ "~Make Use Of" "Tech"
 
 # Tech -> Software
 "--- Tech / Software ---"
+https://www.reddit.com/r/ObsidianMD/.rss "~Obsidian Reddit" "Tech/Software"
+https://www.obsidianroundup.org/blog/rss/ "~Obsidian Roundup" "Tech/Software"
 
 # Tech -> Software Development
 "--- Tech / Software Development ---"
@@ -195,9 +197,9 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCWJe7Cl7hdqJJA511Jnhaeg "~P
 https://zhurai-rsshub.herokuapp.com/bilibili/user/dynamic/526489877/ "~Project Neural Cloud CN (Bilibili)" "Games/News/ProjectNeuralCloud" "_Type/Bilibili"
 https://zhurai-rsshub.herokuapp.com/weibo/user/7308178516 "~Project Neural Cloud CN (Weibo)" "Games/News/ProjectNeuralCloud" "_Type/Weibo"
 # Games -> News -> Shadowverse
-	# TODO: Website: https://shadowverse.com/news/
 https://zhurai-rsshub.herokuapp.com/twitter/user/shadowversegame/showAuthorInTitle=1 "~Shadowverse EN (Twitter)" "Games/News/Shadowverse" "_Type/Twitter"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCn5KG-OoKv5Qgc5Pym9-64w "~Shadowverse Global (Youtube)" "Games/News/Shadowverse" "_Type/Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCn5KG-OoKv5Qgc5Pym9-64w "~Shadowverse EN (Youtube)" "Games/News/Shadowverse" "_Type/Youtube"
+filter:~/.newsboat/shadowverse-news-en.sh "~Shadowverse EN (Website)" "Games/News/Shadowverse" "_Type/Twitter"
 https://zhurai-rsshub.herokuapp.com/twitter/user/shadowverse_jp/showAuthorInTitle=1 "~Shadowverse JP (Twitter)" "Games/News/Shadowverse" "_Type/Twitter"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCvCnMeBahhM8wfADjUhNBvQ "~Shadowverse JP (Youtube)" "Games/News/Shadowverse" "_Type/Youtube"
 
@@ -205,6 +207,8 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCvCnMeBahhM8wfADjUhNBvQ "~S
 "--- Games / Another Eden ---"
 https://www.reddit.com/r/AnotherEdenGlobal/.rss "~Another Eden Reddit RSS" "Games/Another Eden" "_Type/Reddit"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCtyA0gFmjKC8sG78pwN-OOg "~Youtube: Wil Mak" "Games/Another Eden" "_Type/Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCDo-87IP7HpP9ZNJVXBY5jA "~Youtube: 7th Archangel " "Games/Another Eden" "_Type/Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7Ak2BakIcNcvkYS_VHCiuQ "~Youtube: Seven7 " "Games/Another Eden" "_Type/Youtube"
 
 # Games -> Apex Legends
 "--- Games / Apex Legends ---"
@@ -283,6 +287,8 @@ https://www.gflcorner.com/feed/ "~Website: GFL Corner" "Games/GirlsFrontline"
 "--- Games / Hearthstone ---"
 https://www.reddit.com/r/Hearthstone/.rss "~Hearthstone Reddit RSS" "Games/Hearthstone" "_Type/Reddit"
 https://www.reddit.com/r/CompetitiveHS/.rss "~Competitive Hearthstone Reddit RSS" "Games/Hearthstone" "_Type/Reddit"
+https://www.reddit.com/r/BobsTavern/.rss "~Hearthstone Battlegrounds Reddit RSS" "Games/Hearthstone" "_Type/Reddit"
+https://www.reddit.com/r/HSMercenaries/.rss "~Hearthstone Mercenaries Reddit RSS" "Games/Hearthstone" "_Type/Reddit"
 	# hearthstone - high profile blog/strategy websites
 
 # Games -> Magic The Gathering 
@@ -390,10 +396,13 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC1suqwovbL1kzsoaZgFZLKg "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UCXTpFs_3PqI41qX2d9tL2Rw "~Youtube: 紫咲シオン (Shion)" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCL_qhgtOy0dy1Agp8vkySQg "~Youtube: Mori Calliope" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCHsx4Hqa-1ORjQTh9TYDhww "~Youtube: Takanashi Kiara" "VTuber/Hololive" "_Type/Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCCzUftO8KOVkV4wQG1vkUvg "~Youtube: 宝鐘マリン (Marine)" "VTuber/Hololive" "_Type/Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1DCedRgGHBdm81E1llLhOQ "~Youtube: 兎田ぺこら (Pekora)" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCgmPnx-EEeOrZSg5Tiw7ZRQ "~Youtube: Hakos Baelz" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCAoy6rzhSf4ydcYjJw3WoVg "~Youtube: Airani Iofifteen" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCQ0UDLQCjY0rmuxCDE38FGg "~Youtube: 夏色まつり (Matsuri)" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCK9V2B22uJYu3N7eR_BT9QA "~Youtube: 尾丸ポルカ (Polka)" "VTuber/Hololive" "_Type/Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdyqAaZDKHXg4Ahi7VENThQ "~Youtube: 白銀ノエル (Noel)" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC-hM6YJuNYVAmUWxeIr9FeA "~Youtube: さくらみこ (Miko)" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCvInZx9h3jC2JzsIzoOebWg "~Youtube: 不知火フレア (Flare)" "VTuber/Hololive" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCyl1z3jo3XHR1riLFKG5UAg "~Youtube: Watson Amelia" "VTuber/Hololive" "_Type/Youtube"
