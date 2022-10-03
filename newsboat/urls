@@ -93,10 +93,12 @@ https://www.obsidianroundup.org/blog/rss/ "~Obsidian Roundup" "Tech/Software"
 
 # Tech -> Software Development
 "--- Tech / Software Development ---"
+https://www.reddit.com/r/Unity3D/.rss "~Unity3D Reddit" "Tech/Software Developmnet"
 https://www.getrevue.co/profile/thisweekinreact?format=rss "~This Week in React" "Tech/Software Development"
 
 # Tech -> Information Technology
 "--- Tech / I.T. ---"
+https://www.reddit.com/r/selfhosted/.rss "~SelfHosted Reddit" "Tech/Information Technology"
 
 # Tech -> Security
 "--- Tech / Security ---"
@@ -171,6 +173,7 @@ https://zhurai-rsshub.herokuapp.com/twitter/user/fgoproject/showAuthorInTitle=1 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCXBgKqFxSjKADEuMLkc1Bpg "~Fate/Grand Order JP (Youtube)" "Games/News/FGO" "_Type/Youtube"
 # Games -> News -> Girls Frontline
 https://zhurai-rsshub.herokuapp.com/twitter/user/GirlsFrontlineE/showAuthorInTitle=1 "~Girls Frontline EN (Twitter)" "Games/News/Girls Frontline" "_Type/Twitter"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCiiOTrZSdB1C9nxOle-86eg "~Girls Frontline EN (Youtube)" "Games/News/Girls Frontline" "_Type/Youtube"
 https://zhurai-rsshub.herokuapp.com/twitter/user/GirlsFrontline/showAuthorInTitle=1 "~Girls Frontline JP (Twitter)" "Games/News/Girls Frontline" "_Type/Twitter"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCKIdwu806-KocBJufLAeArA "~Girls Frontline JP (Youtube)" "Games/News/Girls Frontline" "_Type/Youtube"
 https://zhurai-rsshub.herokuapp.com/twitter/user/girlsfrontlinek/showAuthorInTitle=1 "~Girls Frontline KR (Twitter)" "Games/News/Girls Frontline" "_Type/Twitter"
@@ -447,6 +450,14 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCyIcOCH-VWaRKH9IkR8hz7Q "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UCbfv8uuUXt3RSJGEwxny5Rw "~Youtube: ななかぐら (Nana Kagura)" "VTuber/Indie" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCWCc8tO-uUl_7SJXIKJACMw "~Youtube: 神楽めあ (Kagura Mea)" "VTuber/Indie" "_Type/Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCajhBT4nMrg3DLS-bLL2RCg "~Youtube: 天野ピカミィ (Pikamee)" "VTuber/Indie" "_Type/Youtube"
+
+################################################################################
+
+# Other
+"--- Other ---"
+
+# Other -> News
+"--- Other / News ---"
 
 ################################################################################
 
